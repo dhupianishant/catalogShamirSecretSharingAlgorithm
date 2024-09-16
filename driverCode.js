@@ -50,7 +50,7 @@ function findConstantTerm(jsonInput) {
 }
 
 function main() {
-    const filePath = 'input.json';
+    const filePath = 'testCase2.json';
 
     try {
         const fileContents = fs.readFileSync(filePath, 'utf8');
